@@ -25,6 +25,7 @@ jobs:
           node-version: 12
       - run: npm ci
       - run: npm publish
+      - run: npm who am i
       - uses: JS-DevTools/npm-publish@v1
         with:
           token: ${{ secrets.NPM_TOKEN }}
