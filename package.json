@@ -1,0 +1,19 @@
+{
+  "name": "@turkyden/my-package",
+  "version": "1.0.0",
+  "description": "Publish to GitHub Packages in 5 minutes or less with GitHub Actions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Turkyden/my-package.git"
+  },
+  "author": "Turkyden",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Turkyden/my-package/issues"
+  },
+  "homepage": "https://github.com/Turkyden/my-package#readme"
+}
