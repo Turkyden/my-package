@@ -1,5 +1,5 @@
 {
-  "name": "turkyden-my-package",
+  "name": "my-package",
   "version": "1.0.3",
   "description": "Publish to GitHub Packages in 5 minutes or less with GitHub Actions.",
   "main": "index.js",
