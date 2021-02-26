@@ -1,5 +1,5 @@
 {
-  "name": "turkyden-my-package",
+  "name": "@turkyden/my-package",
   "version": "1.1.2",
   "private": false,
   "description": "Publish to GitHub Packages in 5 minutes or less with GitHub Actions.",
