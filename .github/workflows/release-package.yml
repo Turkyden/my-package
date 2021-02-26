@@ -1,8 +1,9 @@
 name: Node.js Package
 
 on:
-  release:
-    types: [created]
+  push:
+    branches:
+      - main # Change this to your default branch
 
 jobs:
   build:
@@ -26,7 +27,7 @@ jobs:
         with: # All of theses inputs are optional
           tag_name: "v%s"
           tag_message: "v%s"
-          create_tag: "false"
+          create_tag: "true"
           workspace: "."
           publish_command: "npm"
         env: # More info about the environment variables in the README
